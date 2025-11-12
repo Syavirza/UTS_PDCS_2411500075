@@ -4,7 +4,7 @@
 $db_host = 'localhost';
 $db_user = 'root';
 $db_pass = '';
-$db_name = 'db_perpustakaan_75';
+$db_name = 'PDCS_2411500075';
 
 //mematiikan error reporting untuk mysqli
 //mysqli_report(MYSQLI_REPORT_OFF);
