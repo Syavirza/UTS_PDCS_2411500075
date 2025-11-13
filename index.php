@@ -8,6 +8,8 @@ if (!isset($_SESSION['admin_logged_in'])) {
     exit(); // hentikan proses selanjutnya 
 }
 
+require_once "includes/config.php";
+
 define('MY_APP', true); // ini berfungsi untuk proteksi, ada di halaman page.
 
 // Get hal
