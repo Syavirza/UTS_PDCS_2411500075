@@ -1,7 +1,7 @@
-<?php 
-session_start(); 
+<?php
+session_start();
 
-$_SESSION = []; // kosongkan semua session
-session_destroy(); // hancurkan session
+$_SESSION= [];
+session_destroy();
 
-header("location: login.php"); // arahkan ke login.php
+header("Location: login.php");
